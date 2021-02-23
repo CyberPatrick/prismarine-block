@@ -85,6 +85,7 @@ function provider ({ Biome, blocks, blocksByStateId, toolMultipliers, shapes, ma
           if (variations[i].metadata === metadata) {
             this.displayName = variations[i].displayName
             this.shapes = variations[i].shapes
+            this.description = variations[i].description;
           }
         }
       }
